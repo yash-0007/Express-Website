@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{>head}}
+
+    <title>About</title>
+</head>
+
+<body>
+    {{>navbar}}
+
+    <!-- main -->
+    <main>
+        <div class="container-fluid main_header">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="images/404.png" alt="Yash">
+                        </figure>
+                        <p>Welcome to Weather Website</p>
+                        <h1>{{errorMsg}}</span></h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    {{>footer}}
+
+</body>
+
+</html>
